@@ -1,0 +1,23 @@
+.container1{
+    display: flex;
+    align-items: flex-start;
+
+}
+.container2{
+    display: flex;
+    align-items: center;
+}
+.container3{
+    display: flex;
+    align-items: flex-end;
+}
+img{
+    border: 1px solid;
+}
+.container1, .container2, .container3{
+    background-color: rgba(192, 192, 192, 0.589);
+    flex-wrap: wrap;
+    gap: .8rem;
+    justify-content: center;
+}
+ 
